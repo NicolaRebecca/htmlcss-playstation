@@ -44,7 +44,7 @@
 }
 
 .returnal-sottotitolo h4{
-    margin-top: 20px;
+    margin-top: 10px;
     color:white;
     
 }
@@ -96,7 +96,7 @@
 }
 
 .description, .ps-thumb{
-    margin-top:30px;
+    margin-top:30px; 
 }
 
 .mini-box-accessori{
@@ -108,7 +108,7 @@
 }
 
 .box-accessori-mini{
-   
+   margin-top:20px;
     border:2px solid white;
     overflow: hidden;
 }
@@ -118,7 +118,36 @@
 }
 
 .box-accessori-inner{
-    
     border:2px solid white;
     overflow:hidden;
+}
+
+
+.takes-two img{
+    width: 100%;
     
+}
+
+.takes-two-logo{
+    position: relative; 
+    top:110%;
+    left: 10%;
+}
+
+.nuove-uscite{
+    padding-top:30px;
+    color:white;
+    background-color: rgb(65, 64, 64);
+    
+}
+
+.box-nuove-uscite img{
+    width: 100%;
+    
+
+}
+
+.box-nuove-uscite:hover{
+    border-radius:20px;
+    border:4px solid blue;
+}
