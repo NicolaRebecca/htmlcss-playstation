@@ -108,6 +108,7 @@
 }
 
 .box-accessori-mini{
+    font-size:12px;
    margin-top:20px;
     border:2px solid white;
     overflow: hidden;
@@ -135,6 +136,7 @@
 }
 
 .nuove-uscite{
+    padding-bottom:60px;
     padding-top:30px;
     color:white;
     background-color: rgb(65, 64, 64);
@@ -144,10 +146,31 @@
 .box-nuove-uscite img{
     width: 100%;
     
+    
 
 }
 
 .box-nuove-uscite:hover{
     border-radius:20px;
     border:4px solid blue;
+}
+
+.esplora-ps4-title {
+    font-size:14px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+.esplora-ps4 img, .esplora-vr img, .esplora-accessori img{
+    width:100%;
+}
+
+
+.esplora-ps4 button , .esplora-vr button , .esplora-accessori button{
+    color: white;
+    background-color: rgb(3, 90, 189);
+    border-radius: 20px;
+    margin-bottom:30px;
+    
 }
