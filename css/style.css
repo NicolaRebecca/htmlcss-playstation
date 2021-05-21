@@ -39,19 +39,17 @@
 
 .returnal-logo{
     position: absolute;
+    margin-top:10%;
     
 }
 
-
-
-.container-fluid{
-    display:flex;
-    flex-direction: row;
+.returnal-sottotitolo h4{
+    margin-top: 20px;
+    color:white;
     
 }
 
 .mini-box{
-   
    margin-top: 30px;
 }
 
@@ -76,3 +74,51 @@
     overflow:hidden;
     border-radius:20px;
 }
+
+.ecco-la-ps5{
+    text-align: center;
+    margin-top:80px;
+    margin-bottom:30px;
+}
+
+.ecco-la-ps5 h6{
+    color:rgb(42, 42, 238);
+}
+
+.ps-thumb{
+    width: 100%;
+}
+
+.description button{
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(38, 38, 236);
+}
+
+.description, .ps-thumb{
+    margin-top:30px;
+}
+
+.mini-box-accessori{
+    margin:0 auto;
+}
+
+.box-accessori-mini img{
+    width: 100%;
+}
+
+.box-accessori-mini{
+   
+    border:2px solid white;
+    overflow: hidden;
+}
+
+.box-accessori-mini:hover{
+    border-bottom:2px solid blue;
+}
+
+.box-accessori-inner{
+    
+    border:2px solid white;
+    overflow:hidden;
+    
