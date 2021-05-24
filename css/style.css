@@ -1,3 +1,18 @@
+/* nav-bar */
+
+.sony-black-bar{
+    padding-top:10px;
+    padding-bottom:10px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+}
+
+.sony-black-bar img{
+    width: 70px;
+    
+}
+
 .navbar{
     background-color:rgb(236, 239, 241); 
 }
@@ -33,21 +48,33 @@
     font-size: 14px;
 }
 
-.jumbotron img{ 
-    width: 100%; 
-} 
+/* jumbo */
 
-.returnal-logo{
-    position: absolute;
-    margin-top:10%;
-    
+.jumbo-bg {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.returnal-sottotitolo h4{
-    margin-top: 10px;
-    color:white;
-    
+.returnal-content img{
+    width: 70%;
 }
+
+.returnal-content {
+    color: white;
+}
+
+.returnal-content button{
+    border-radius: 200px;
+
+}
+
+.returnal-box {
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+
+/* mini box sotto il jumbo */
 
 .mini-box{
    margin-top: 30px;
@@ -74,6 +101,8 @@
     overflow:hidden;
     border-radius:20px;
 }
+
+/* container "ecco la ps5" */
 
 .ecco-la-ps5{
     text-align: center;
@@ -123,19 +152,35 @@
     overflow:hidden;
 }
 
+/* sezione container "it takes two" */
 
-.takes-two img{
-    width: 100%;
-    
+.takes-two-content {
+    color: white;
 }
 
-.takes-two-logo{
-    position: relative; 
-    top:110%;
-    left: 10%;
+.takes-two-content img{
+    width: 70%;
 }
 
-.nuove-uscite{
+.takes-two-banner {
+    margin-top:20px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.takes-two-box {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.takes-two-box button{
+    border-radius: 200px;
+}
+
+    /* sezione con box nuove uscite */
+
+.nuove-uscite {
     padding-bottom:60px;
     padding-top:30px;
     color:white;
@@ -154,6 +199,8 @@
     border-radius:20px;
     border:4px solid blue;
 }
+
+ /* container ps4 */
 
 .esplora-ps4-title {
     font-size:14px;
@@ -174,6 +221,8 @@
     margin-bottom:30px;
     
 }
+
+ /* ps plus */
 
 .ps-plus{
     margin-top:30px;
@@ -202,6 +251,8 @@
     }
     }
     
+/* sezione sconti */
+
 .sconti-ps-store{
     margin-top:30px;
 }
@@ -214,6 +265,8 @@
 .box-sconti img{
     width: 100%;
 }
+
+/* sezione ps now */
 
 .ps-now{
     color: white;
@@ -235,6 +288,9 @@
     }
     }
 
+
+    /* parte social */
+
 .titolo-social{
     margin-top:30px;
     margin-bottom:40px;
@@ -251,6 +307,9 @@
           
     } 
     } 
+
+
+    /* footer */
 
     footer{
         color: white;
